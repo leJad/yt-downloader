@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: royalblue;
+    margin-top: 45vh;
+    
+}
+
+.Urlin, .btn{
+    font-size: 1.3rem;
+    padding: 5px 10px;
+}
+
+.Urlin{
+    border-radius: 4px 0 0 4px;
+    width: 30rem;
+    text-align: left;
+    border: 2px solid #eeeeee;
+    outline: none;
+}
+
+.Urlin:focus{
+    border: 2px solid;
+}
+
+.btn{
+    border-radius: 0px 4px 4px 0px;
+    color: royalblue;
+    border: 2px solid;
+}
